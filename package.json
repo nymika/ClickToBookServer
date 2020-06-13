@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "mongo" : "/home/nymika/Documents/ClickToBook/clicktobook/database/mongodb/bin/mongod --dbpath=/home/nymika/Documents/ClickToBook/clicktobook/database/data"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +18,9 @@
     "mongoose": "^5.9.5",
     "nodemon": "^2.0.4",
     "validator": "^12.2.0"
+  },
+  "engines" : {
+    "node" : "13.x",
+    "npm" : "6.x"
   }
 }
