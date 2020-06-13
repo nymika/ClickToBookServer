@@ -19,16 +19,6 @@ const moviesRouter = require('./routers/movies')
 var cors = require("cors");
 const port=process.env.PORT || 3000
 
-// const acc=async()=>{
-//     const movies=await Movie.find({})
-//     for(var i=0;i<movies.length;i++)
-//     {
-//         movies[i].day=new Date("2021-05-9")
-//         movies[i].save();
-//     }
-// }
-// acc()
-
 app.use(express.json())
 app.use(cors());
 app.use(homeRouter)
